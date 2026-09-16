@@ -24,8 +24,8 @@ This project uses `pnpm`.
 
 ## Deployment
 
-The site builds to static files and ships in a Docker container running Caddy as
-the file server (`Dockerfile`, `Caddyfile`, `docker-compose.yml`).
+The site builds to static files and ships in a Docker container running nginx as
+the file server (`Dockerfile`, `nginx.conf`, `docker-compose.yml`).
 
 On the DigitalOcean host:
 
