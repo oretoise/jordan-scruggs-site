@@ -1,0 +1,6 @@
+name = "jordan-scruggs-site"
+# Set this to today's date
+compatibility_date = "2026-09-18"
+
+[assets]
+directory = "./dist"

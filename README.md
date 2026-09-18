@@ -24,25 +24,4 @@ This project uses `pnpm`.
 
 ## Deployment
 
-The site builds to static files and ships in a Docker container running nginx as
-the file server (`Dockerfile`, `nginx.conf`, `docker-compose.yml`).
-
-On the DigitalOcean host:
-
-```sh
-docker compose build
-docker compose up -d
-```
-
-This serves the built site on `127.0.0.1:8080`. Point the host's Caddy instance at it,
-e.g. in the host's `/etc/caddy/Caddyfile`:
-
-```
-scruggs.dev {
-	reverse_proxy 127.0.0.1:8080
-}
-```
-
-Then reload Caddy (`caddy reload` or `systemctl reload caddy`).
-
-To deploy an update: pull the latest code, then `docker compose up -d --build`.
+Hosted on Cloudflare Pages.

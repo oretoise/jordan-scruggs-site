@@ -1,7 +1,0 @@
-services:
-  site:
-    build: .
-    container_name: jordan-scruggs-site
-    restart: unless-stopped
-    ports:
-      - "127.0.0.1:8080:80"
