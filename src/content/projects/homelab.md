@@ -28,5 +28,6 @@ All services that don't run on dedicated hardware mentioned above run in Docker 
 - Media
   - Navidrome
   - Immich (photo backup)
-- Networking - PiHole - Wireguard (VPN for external access)
-  </content>
+- Networking
+  - PiHole
+  - Wireguard (VPN for external access)
